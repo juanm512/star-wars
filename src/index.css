@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Mona Sans";
+  src: url("CustomFont.eot");
+  src: url("/Mona Sans/Mona-Sans.woff2") format("woff2"),
+    url("/Mona Sans/Mona-Sans.ttf") format("truetype");
+  /* url("CustomFont.svg#filename") format("svg"); */
+}
+
+:root {
+  font-family: "Mona Sans", Inter, system-ui, Avenir, Helvetica, Arial,
+    sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
